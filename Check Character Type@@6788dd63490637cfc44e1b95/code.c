@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char d;
-    scanf("%c",&d);
-    c = tolower(d);
+    char c;
+    scanf("%c",&c);
+    c = tolower(c);
     int a = (int)c;
     if (a >= 96 && a<= 122){
     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
