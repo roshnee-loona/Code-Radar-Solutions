@@ -25,10 +25,12 @@ int main() {
         c = a / b;
         printf("%d", c);
     }
+    else 
+    printf("Error");
     }
     break;
     default:
-    printf("error");
+    printf("Error");
     }
     return 0;
 }  
