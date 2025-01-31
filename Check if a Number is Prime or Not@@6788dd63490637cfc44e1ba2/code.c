@@ -4,7 +4,7 @@ int a,c,x;
 scanf("%d",&a);
 for(x = 1 ; x>=a;x++)
 {
-    if (a%x == 0)
+    if (a % x == 0)
     c = c+1;
 }
 if (c == 2)
