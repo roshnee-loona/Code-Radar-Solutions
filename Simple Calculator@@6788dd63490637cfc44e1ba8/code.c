@@ -7,25 +7,26 @@ int main() {
     switch(ch){
         case '+':{
         c = a + b;
-        printf("%d", c);
-    break;}
+        printf("%d", c);}
+    break;
     case '-':{
     c = a - b;
     printf("%d", c);
-    
-    break;}
+    }
+    break;
     case '*':
     {
         c = a * b;
         printf("%d", c);
-    
-    break;}
+    }
+    break;
     case '/':{
     if (b!=0){
         c = a / b;
         printf("%d", c);
     }
-    break;}
+    }
+    break;
     default:
     printf("Error");
     }
