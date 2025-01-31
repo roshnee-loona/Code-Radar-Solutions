@@ -22,9 +22,10 @@ int main() {
     }
     break;
     case '/':{
+    if (b!=0){
         c = a/b;
         printf("%d",c);
-    }
+    }}
     break;
     default:
     printf("Error");
