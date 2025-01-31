@@ -27,6 +27,8 @@ int main() {
     }
     }
     break;
+    default:
+    printf("Error")
     }
     return 0;
 }  
