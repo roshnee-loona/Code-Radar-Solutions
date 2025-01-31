@@ -8,7 +8,7 @@ int main() {
     printf("Vowel");
     else 
     printf( "Consonant");}
-    else if ( a >= 48 && a <= 57)
+    if ( a >= 48 && a <= 57)
     printf("Digit");
     else 
     printf("Special Character");
