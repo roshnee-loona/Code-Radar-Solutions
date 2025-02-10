@@ -11,5 +11,5 @@ int main(){
         c=c+2;}
         printf("\n");
     }
-
+return 0;
 }
