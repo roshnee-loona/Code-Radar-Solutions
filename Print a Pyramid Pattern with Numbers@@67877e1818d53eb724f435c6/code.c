@@ -8,11 +8,11 @@ int main() {
 
     for (x = 1; x <= n; x++) {
         for (y = 1; y <= (n - x); y++) {
-            printf("  ");
+            printf(" ");
         }
 
         for (z = 1; z <= x; z++) {
-            printf("%d   ", z); 
+            printf("%d ", z); 
         }
 
         printf("\n"); 
