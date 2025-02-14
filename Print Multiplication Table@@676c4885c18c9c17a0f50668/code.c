@@ -7,5 +7,5 @@ int main() {
         printf("%d x %d = %d\n",N,a,N*a);
         a+=1;
     }
-    return 0;
+ return 0;
 }
